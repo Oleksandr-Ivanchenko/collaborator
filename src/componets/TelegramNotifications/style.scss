@@ -1,0 +1,9 @@
+@import '../../utils/mixins';
+
+.telegramNotifications {
+  margin-top: 35px;
+
+  &__row {
+    @include grid-row;
+  }
+}

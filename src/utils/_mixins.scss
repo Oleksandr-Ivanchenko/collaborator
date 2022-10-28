@@ -1,0 +1,16 @@
+@mixin grid-container {
+  display: grid;
+  gap: 15px;
+}
+
+@mixin grid-row {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 5fr 1fr 4fr;
+  gap: 55px;
+
+  @media only screen and (max-width: 900px) and (min-width: 280px) {
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
