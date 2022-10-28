@@ -1,3 +1,4 @@
+Test task in Collaborator
 Technologies used: React.js, React functional components, Sass, Material UI.
 
 [DEMO LINK](https://oleksandr-ivanchenko.github.io/collaborator/)
