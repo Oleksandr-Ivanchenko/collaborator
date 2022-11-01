@@ -33,6 +33,10 @@ export default function AlertDialogSlide() {
           textTransform: 'none',
           background: '#3861fb',
           color: '#fff',
+          '&:hover': {
+            color: '#3861fb',
+            background: '#fff',
+        },
         }}
       >
         Сохранить изменения
